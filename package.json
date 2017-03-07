@@ -1,11 +1,12 @@
 {
   "name": "urlshortener",
-  "version": "0.0.1",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "version": "0.0.2",
+  "description": "Free Code Camp project URL shortener",
   "main": "server.js",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Anthony Mitchell <drantho@gmail.com>",
   "dependencies": {
     "async": "~0.2.8",
+    "dotenv": "^4.0.0",
     "express": "~3.2.4",
     "mongojs": "^2.4.0",
     "mongoose": "^4.8.4",

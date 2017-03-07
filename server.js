@@ -1,10 +1,14 @@
 var http = require('http');
 var express = require('express');
+require('dotenv').config();
 var mongojs = require("mongojs");
-var db = mongojs('mongodb://cloud9user:b0baf3tt@ds161169.mlab.com:61169/dranthodb',['shortenedurls'] );
+var db = mongojs(process.env.CONNECTION_STRING,['shortenedurls'] );
+//var db = mongojs('');
 
 var router = express();
 var server = http.createServer(router);
+
+
 
 router.get('/', function(req, res, next){
  //res.type('text/html');
