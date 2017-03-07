@@ -17,7 +17,7 @@ router.get('/', function(req, res, next){
   if(err){
    res.send(err);
   }
-  res.json(urls);
+  res.send('<h1>URL Shortener</h1><h3>Add Shortened URL</h3>Add /&lt;url&gt; to the address.<h3>Go to shortened URL</h3>Add /&lt;number&gt; to address.<br><br><h3>Current Shortened URLs</h3>' + JSON.stringify(urls));
   });
 });
 
