@@ -1,6 +1,6 @@
 {
   "name": "urlshortener",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Free Code Camp project URL shortener",
   "main": "server.js",
   "author": "Anthony Mitchell <drantho@gmail.com>",
@@ -16,5 +16,13 @@
     "start": "node server.js"
   },
   "devDependencies": {},
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drantho/urlshortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Drantho/urlshortener/issues"
+  },
+  "homepage": "https://github.com/Drantho/urlshortener#readme"
 }
